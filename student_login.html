@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif;
+        }
+        .bg{
+            background-color:rgba(255, 160, 122, 0.178);
+        }
+        .show form{
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        h1{
+            text-align: center;
+        }
+        input[type = "text"],
+        input[type = "number"],
+        input[type = "password"]{
+            width: 100%;
+            padding: 12px 12px;
+            font-size: 20px;
+        }
+        input[type = "submit"]{
+            width: 110%;
+            padding: 12px 12px;
+        }
+        .show{
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: burlywood;
+            padding: 250px 300px;
+            position: absolute;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body class = "bg">
+    <main>
+        <div class="show">
+            <form action="">
+                <h1>STUDENT LOGIN</h1>
+                <p>
+                    NAME: <br>
+                    <input type="text" name="Username" placeholder = "Username">
+                </p>
+
+                <p>
+                    SCHOLAR NO.:  <br>
+                    <input type="number" name="scholar no." placeholder="Scholar Number">
+                </p>
+
+                <p>
+                    PASSWORD: <br>
+                    <input type="password" name="password" placeholder = "Password">
+                </p>
+
+                <label for="condition">
+                    <h6><input type="checkbox" value="condition">REMEMBER PASSWORD</h6>
+                </label>
+
+                <p>
+                    <input type="submit" value="LOG IN">
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
